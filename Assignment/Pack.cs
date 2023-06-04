@@ -28,6 +28,9 @@ public class Pack
     public float GetVolume()
     {
         return _currentVolume;
+    }public float GetWeight()
+    {
+        return _currentWeight;
     }
 
     public bool Add(InventoryItem item)
